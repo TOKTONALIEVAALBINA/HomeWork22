@@ -12,7 +12,7 @@ public class Main {
         Random random = new Random();
         for (int i = 0; i < 50; i++) {
             array.add(random.nextInt(100));
-            if(i%2==0){ array1.add(i);
+            if(array.get(i)%2==0){ array1.add(array.get(i));
             } else array2.add(i);
         }
         System.out.println(array);
